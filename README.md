@@ -1,6 +1,4 @@
 # PDF Query Answer System using RAG  
-[![Streamlit Cloud](https://static.streamlit.io/badges/streamlit_cloud_uploa
-ding-red.svg)](https://share.streamlit.io/) [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ![Project Preview](assets/app-preview.png)
 
