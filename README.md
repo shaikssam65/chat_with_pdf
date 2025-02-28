@@ -57,3 +57,10 @@ git clone https://github.com/shaikssam65/chat_with_pdf.git
 cd chat_with_pdf
 pip install -r requirements.txt
 streamlit run app.py
+```
+## Explore the App
+
+You can explore the Streamlit app by clicking the link below:
+
+[Visit the Streamlit App](https://sameerquerywithpdf.streamlit.app/)
+
