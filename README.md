@@ -1,6 +1,5 @@
 # PDF Query Answer System using RAG  
 
-![Project Preview](assets/app-preview.png)
 
 
 A **sophisticated** document query system leveraging `Llama 2`, **RAG**, `Faiss`, `LangChain`, and `Streamlit` to extract insights from PDFs and provide accurate, context-aware answers.
@@ -48,7 +47,9 @@ Key features:
     * Streamlit (Interactive Frontend)
 
 ---
-
+## sample input and output
+![Query Example](Chat_pdf/example_1.png)
+![Query Example](Chat_pdf/example_2.png)
 ## Getting Started
 ### Prerequisites
 Install Python 3.8+, then clone the repository:
