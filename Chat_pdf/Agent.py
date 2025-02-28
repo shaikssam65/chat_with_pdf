@@ -9,11 +9,19 @@ from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
 import os
+import shutil
 
 # Constants
 DATA_PATH = 'data/'
 DB_FAISS_PATH = 'VectorStore/'
 RELEVANCE_THRESHOLD = 0.2
+
+# Remove the directory if it exists
+if os.path.exists(DB_FAISS_PATH):
+    shutil.rmtree(DB_FAISS_PATH)
+
+# Recreate the directory
+os.makedirs(DB_FAISS_PATH)
 
 # Functions for vector database creation
 def create_vector_db():

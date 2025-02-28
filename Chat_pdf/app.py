@@ -1,6 +1,8 @@
 import streamlit as st
 from Agent import final_result
 import os
+import shutil
+
 # Custom CSS
 st.markdown(
     """
@@ -108,9 +110,12 @@ with st.container():
     else:
         st.warning("Please upload a PDF file to get started.")
 DATA_PATH = "data/"  # Ensure this matches your vector DB path
-if not os.path.exists(DATA_PATH):
-    os.makedirs(DATA_PATH)
+# Remove the directory if it exists
+if os.path.exists(DATA_PATH):
+    shutil.rmtree(DATA_PATH)
 
+# Recreate the directory
+os.makedirs(DATA_PATH)
 
 
 if file_uploaded and user_query and process_query:
