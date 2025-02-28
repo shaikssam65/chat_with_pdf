@@ -10,7 +10,6 @@ A **sophisticated** document query system leveraging `Llama 2`, **RAG**, `Faiss`
   * [Introduction](#introduction)
   * [System Overview](#system-overview)
   * [Technical Stack](#technical-stack)
-  * [Getting Started](#getting-started)
   * [Usage](#usage)
  
 ---
@@ -50,7 +49,7 @@ Key features:
 ## sample input and output
 ![Query Example](Chat_pdf/example_1.png)
 ![Query Example](Chat_pdf/example_2.png)
-## Getting Started
+## Usage
 ### Prerequisites
 Install Python 3.8+, then clone the repository:
 ```bash
